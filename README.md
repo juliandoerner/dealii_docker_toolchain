@@ -5,7 +5,7 @@ Provides a dockerized toolchain for deal.II.
 ## 1. build docker image
 
 ```
-	docker build -t juliandoerner/dealii_toolchain:0.1 -f Dockerfile .
+	docker build -t juliandoerner/dealii_toolchain:0.3 -f Dockerfile .
 ```
 
 ## 2. start docker image

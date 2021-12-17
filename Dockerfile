@@ -24,8 +24,9 @@ RUN apt-get update \
       rsync \
       tar \
       python \
-	  sudo \
-	  deal.II \
+	    sudo \
+	    deal.II \
+      git \
   && apt-get clean
 
 RUN ( \
