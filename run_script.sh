@@ -5,4 +5,4 @@ docker run -d \
 		-v ~/remote_dev:/home/dealii/ \
 		--name dealii_devtools \
 		--restart unless-stopped\
-		juliandoerner/dealii_toolchain:0.1 
+		juliandoerner/dealii_toolchain:0.4 

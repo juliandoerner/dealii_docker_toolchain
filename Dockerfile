@@ -1,7 +1,7 @@
 FROM ubuntu:focal
 ARG USER=dealii
 ARG USER_PASSWORD=dealii
-ARG DEAL_REPO=ppa:ginggs/deal.ii-9.2.0-backports
+ARG DEAL_REPO=ppa:ginggs/deal.ii-9.3.0-backports
 
 RUN DEBIAN_FRONTEND="noninteractive" apt-get update && apt-get -y install tzdata
 
